@@ -122,6 +122,6 @@ app.get("/product/:id", async (req, res) => {
     res.status(500).send("Internal server error or no product found");
   }
 });
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 app.listen(PORT, () => console.log("Running on fire 🔥🔥 5k "))
