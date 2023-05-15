@@ -15,8 +15,10 @@ const User = require("./user");
 const Item = require("./item");
 const cors = require("cors");
 const jwt=require("jsonwebtoken")
-const secret_key='fuck'
+const secret_key='secret'
 const PORT=process.env.PORT || 5000;
+// https://github.com/unhiredcoder/shopSmart.git
+//
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 const url = "mongodb://proboys777333:pritambhai@ac-rrmx7kp-shard-00-00.5kqktya.mongodb.net:27017,ac-rrmx7kp-shard-00-01.5kqktya.mongodb.net:27017,ac-rrmx7kp-shard-00-02.5kqktya.mongodb.net:27017/?ssl=true&replicaSet=atlas-67jp7r-shard-0&authSource=admin&retryWrites=true&w=majority";
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true})
